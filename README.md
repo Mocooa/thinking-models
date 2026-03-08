@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://github.com/Mocooa/thinking-models/stargazers"><img src="https://img.shields.io/github/stars/Mocooa/thinking-models?style=for-the-badge" alt="GitHub Stars"></a>
+  <a href="https://github.com/Mocooa/thinking-models-orchestrator/stargazers"><img src="https://img.shields.io/github/stars/Mocooa/thinking-models-orchestrator?style=for-the-badge" alt="GitHub Stars"></a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Claude already *knows* all the thinking models — First Principles, MECE, Inver
 ## 快速安装
 
 ```bash
-npx skills add Mocooa/thinking-models
+npx skills add Mocooa/thinking-models-orchestrator
 ```
 
 Works with Claude Code, Cursor, Windsurf, and [15+ other agents](https://skills.sh).
@@ -50,11 +50,11 @@ mkdir -p ~/.claude/skills/thinking-models
 
 # English
 curl -o ~/.claude/skills/thinking-models/SKILL.md \
-  https://raw.githubusercontent.com/Mocooa/thinking-models/main/SKILL.md
+  https://raw.githubusercontent.com/Mocooa/thinking-models-orchestrator/main/SKILL.md
 
 # 中文版
 curl -o ~/.claude/skills/thinking-models/SKILL.md \
-  https://raw.githubusercontent.com/Mocooa/thinking-models/main/SKILL_zh.md
+  https://raw.githubusercontent.com/Mocooa/thinking-models-orchestrator/main/SKILL_zh.md
 ```
 
 Pick one language — the skill auto-triggers either way.
@@ -148,7 +148,7 @@ These are for you to read on GitHub — the skill doesn't load them.
 
 ## Contributing
 
-Found a problem? [Open an issue](https://github.com/Mocooa/thinking-models/issues). Want to improve the routing logic or add a new pattern? PRs welcome.
+Found a problem? [Open an issue](https://github.com/Mocooa/thinking-models-orchestrator/issues). Want to improve the routing logic or add a new pattern? PRs welcome.
 
 ## License
 

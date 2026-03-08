@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://github.com/Mocooa/thinking-models/stargazers"><img src="https://img.shields.io/github/stars/Mocooa/thinking-models?style=for-the-badge" alt="GitHub Stars"></a>
+  <a href="https://github.com/Mocooa/thinking-models-orchestrator/stargazers"><img src="https://img.shields.io/github/stars/Mocooa/thinking-models-orchestrator?style=for-the-badge" alt="GitHub Stars"></a>
 </p>
 
 <p align="center">
@@ -37,7 +37,7 @@ Claude 已经*知道*所有思维模型——第一性原理、MECE、逆向思�
 ## 快速安装
 
 ```bash
-npx skills add Mocooa/thinking-models
+npx skills add Mocooa/thinking-models-orchestrator
 ```
 
 支持 Claude Code、Cursor、Windsurf 和 [15+ 个其他 Agent](https://skills.sh)。
@@ -50,11 +50,11 @@ mkdir -p ~/.claude/skills/thinking-models
 
 # 中文版
 curl -o ~/.claude/skills/thinking-models/SKILL.md \
-  https://raw.githubusercontent.com/Mocooa/thinking-models/main/SKILL_zh.md
+  https://raw.githubusercontent.com/Mocooa/thinking-models-orchestrator/main/SKILL_zh.md
 
 # English
 curl -o ~/.claude/skills/thinking-models/SKILL.md \
-  https://raw.githubusercontent.com/Mocooa/thinking-models/main/SKILL.md
+  https://raw.githubusercontent.com/Mocooa/thinking-models-orchestrator/main/SKILL.md
 ```
 
 选一个语言就行，Skill 会自动触发。
@@ -150,7 +150,7 @@ Claude 已经知道所有模型知识了。这个 Skill 只是**路由逻辑**�
 
 ## 贡献
 
-发现问题？[提 Issue](https://github.com/Mocooa/thinking-models/issues)。想改进路由逻辑或加新的匹配模式？欢迎 PR。
+发现问题？[提 Issue](https://github.com/Mocooa/thinking-models-orchestrator/issues)。想改进路由逻辑或加新的匹配模式？欢迎 PR。
 
 ## License
 
